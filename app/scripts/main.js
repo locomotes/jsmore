@@ -84,9 +84,11 @@ $(".circa").hover(
 //     });
 
 
+$('.circas').click(function(){
+	console.log('slides up');
 
-
-
+	$(this).slideToggle('slow')
+});
 
 
 
